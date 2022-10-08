@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    max-width: 450px;
+    min-height: 300px;
+    min-width: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    align-items: flex-start;
+    background-color: #1b244a;
+    text-align: left;
+    
+}
+.counter-wrapper {
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.header {
+  max-width: 225px;
+  min-width: 225px;
+  color: #eee;
+  text-align: center;
+}
+
+.heading {
+  min-width: 225px;
+  color: #eee;
+  text-align: center;
+}
+
+.score-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 155px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #080001;
+}
+
+.multiplyer-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 155px;
+  height: 45px;
+  margin-top: 22px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.score {
+  font-family: 'Cursedtimerulil aznm', sans-serif;
+  color: #f94f6d;
+  font-size: 90px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.div-block {
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.timer {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  padding-right: 5px;
+  padding-left: 5px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9aabd8;
+  border-radius: 5px;
+  background-color: rgba(56, 152, 236, 0);
+  font-family: 'Cursedtimerulil aznm', sans-serif;
+  color: #9aabd8;
+  text-align: center;
+}
+
+.button-2 {
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9aabd8;
+  border-radius: 5px;
+  background-color: rgba(56, 152, 236, 0);
+  color: #9aabd8;
+    
+}
+
+#header {
+    text-align: center;
+    color: #eee;
+}
+
+
+@font-face {
+  font-family: 'Cursedtimerulil aznm';
+  src: url('/fonts/62ce88b6dadba9f5f18c33f4_CursedTimerUlil-Aznm.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
